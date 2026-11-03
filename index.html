@@ -313,6 +313,16 @@ dialog form{display:flex;flex-direction:column;gap:13px;padding:17px}
 .hint{font-size:.76rem;color:var(--muted-2);line-height:1.5}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ---------- trabajos realizados ---------- */
+.works{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px}
+.work{display:flex;flex-direction:column;gap:10px;min-width:0}
+.work .frame{aspect-ratio:16/9;background:#000;border:1px solid var(--line);border-radius:7px;overflow:hidden}
+.work .frame iframe{display:block;width:100%;height:100%;border:0}
+.work .tag{font-family:var(--mono);font-size:.63rem;letter-spacing:.17em;text-transform:uppercase;color:var(--accent)}
+.work .meta{font-family:var(--mono);font-size:.68rem;color:var(--muted-2)}
+.work p{color:var(--muted);font-size:.9rem}
+@media (max-width:420px){.works{grid-template-columns:minmax(0,1fr)}}
 </style>
 <style>
 html{scroll-behavior:smooth}
@@ -326,6 +336,7 @@ section[id]{scroll-margin-top:84px}
     <a class="brand" href="./"><b>NOVA</b><span>Audiovisual</span></a>
     <nav class="nav">
       <a href="#servicios">Servicios</a>
+      <a href="#trabajos" id="nav-trabajos" hidden>Trabajos</a>
       <a href="#flujo">Cómo trabajamos</a>
       <a href="#contacto">Contacto</a>
       <a class="btn btn--sm btn--primary" href="https://claude.ai/artifact/JtiDYk3MDXhtq6LH5CvMqj" target="_blank" rel="noopener">Panel de revisión</a>
@@ -405,6 +416,18 @@ section[id]{scroll-margin-top:84px}
     </div>
   </section>
 
+  <!-- Trabajos realizados: se llena desde trabajos.json y queda oculta mientras esté vacía -->
+  <section class="section" id="trabajos" hidden>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Trabajos realizados</p>
+        <h2>Lo que hemos producido</h2>
+        <p class="lede">Una selección de proyectos para instituciones y marcas.</p>
+      </div>
+      <div class="works" id="works"></div>
+    </div>
+  </section>
+
   <section class="section" id="flujo">
     <div class="wrap">
       <div class="sec-head">
@@ -460,6 +483,32 @@ section[id]{scroll-margin-top:84px}
 </main>
 
 <script>
+// Trabajos realizados: trabajos.json = { trabajos: [{ youtube, titulo, tipo, cliente, anio, descripcion }] }
+(function(){
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function embed(u){
+    var m = String(u || "").match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/|live\/))([\w-]{11})/);
+    if (m) return "https://www.youtube-nocookie.com/embed/" + m[1];
+    m = String(u || "").match(/vimeo\.com\/(\d+)/);
+    return m ? "https://player.vimeo.com/video/" + m[1] : null;
+  }
+  fetch("trabajos.json", { cache: "no-cache" }).then(function(r){ return r.json(); }).then(function(d){
+    var xs = (d.trabajos || []).map(function(t){ t.src = embed(t.youtube); return t; }).filter(function(t){ return t.src; });
+    if (!xs.length) return;
+    document.getElementById("works").innerHTML = xs.map(function(t){
+      var meta = [t.cliente, t.anio].filter(Boolean).map(esc).join(" · ");
+      return '<article class="work"><div class="frame"><iframe src="' + t.src + '" title="' + esc(t.titulo) + '" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>' +
+        (t.tipo ? '<span class="tag">' + esc(t.tipo) + '</span>' : '') + '<h3>' + esc(t.titulo) + '</h3>' +
+        (meta ? '<span class="meta">' + meta + '</span>' : '') + (t.descripcion ? '<p>' + esc(t.descripcion) + '</p>' : '') + '</article>';
+    }).join("");
+    document.getElementById("trabajos").hidden = false;
+    document.getElementById("nav-trabajos").hidden = false;
+    // Con la sección nueva, se reordena la alternancia de fondos para no juntar dos iguales
+    document.getElementById("flujo").classList.add("section--alt");
+    document.getElementById("contacto").classList.remove("section--alt");
+  }).catch(function(){});
+})();
+
 document.addEventListener("click", function(e){
   var b = e.target.closest(".copy");
   if(!b) return;
