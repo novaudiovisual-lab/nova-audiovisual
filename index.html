@@ -404,6 +404,11 @@ h3{font-weight:800}
 .step:nth-child(2) .num{color:#c98ae6}
 /* trabajos */
 .work .frame{border:2px solid var(--shadow);border-radius:14px;box-shadow:var(--pop)}
+.work .frame.ext{position:relative;display:block}
+.work .frame.ext img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s,filter .3s;filter:brightness(.8)}
+.work .frame.ext:hover img{transform:scale(1.04);filter:brightness(.95)}
+.work .frame.ext .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:linear-gradient(180deg,#f0cc70,#e0b858);color:var(--accent-ink);font-weight:700;font-size:.9rem;padding:10px 18px;border-radius:12px;border:2px solid var(--shadow);box-shadow:0 4px 0 var(--shadow);white-space:nowrap}
+.work .frame.ext:hover{text-decoration:none}
 /* contacto */
 .contact-grid{background:var(--surface-2);border:1.5px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--pop)}
 .field-row dd{font-weight:600}
@@ -585,7 +590,12 @@ footer a{color:var(--muted)}
     if (!xs.length) return;
     document.getElementById("works").innerHTML = xs.map(function(t){
       var meta = [t.cliente, t.anio].filter(Boolean).map(esc).join(" · ");
-      return '<article class="work"><div class="frame"><iframe src="' + t.src + '" title="' + esc(t.titulo) + '" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>' +
+      // "externo": el video no se puede incrustar (p. ej. música con derechos): miniatura que abre YouTube
+      var yt = t.src.indexOf("youtube-nocookie") > -1 ? t.src.split("/embed/")[1] : null;
+      var frame = (t.externo && yt)
+        ? '<a class="frame ext" href="https://www.youtube.com/watch?v=' + yt + '" target="_blank" rel="noopener" aria-label="Ver ' + esc(t.titulo) + ' en YouTube"><img src="https://i.ytimg.com/vi/' + yt + '/hqdefault.jpg" alt="" loading="lazy"><span class="play">▶ Ver en YouTube</span></a>'
+        : '<div class="frame"><iframe src="' + t.src + '" title="' + esc(t.titulo) + '" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>';
+      return '<article class="work">' + frame +
         (t.tipo ? '<span class="tag">' + esc(t.tipo) + '</span>' : '') + '<h3>' + esc(t.titulo) + '</h3>' +
         (meta ? '<span class="meta">' + meta + '</span>' : '') + (t.descripcion ? '<p>' + esc(t.descripcion) + '</p>' : '') + '</article>';
     }).join("");

@@ -1,4 +1,86 @@
 {
-  "actualizado": "2026-11-02",
-  "trabajos": []
+  "trabajos": [
+    {
+      "youtube": "https://www.youtube.com/watch?v=1UGjNxCjEtE",
+      "titulo": "Aniversario BancoEstado",
+      "cliente": "BancoEstado",
+      "tipo": "Evento corporativo",
+      "anio": "",
+      "descripcion": "Producción audiovisual y registro completo del evento de aniversario de BancoEstado."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=mi1zeQHljag",
+      "titulo": "Pulso a la Economía",
+      "cliente": "BancoEstado",
+      "tipo": "Evento corporativo",
+      "anio": "",
+      "descripcion": "Producción y realización del encuentro «Pulso a la Economía» de BancoEstado, con presentaciones y paneles de conversación."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=_Fsgxr09u58",
+      "titulo": "Lanzamiento FOGAPE Reactiva",
+      "cliente": "BancoEstado",
+      "tipo": "Evento institucional",
+      "anio": "2021",
+      "descripcion": "Producción y realización del evento de BancoEstado sobre el programa de garantías FOGAPE Reactiva (agosto de 2021)."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=q6iOC0-R15A",
+      "titulo": "Siguiendo la Veta · NIDO, el edificio de madera",
+      "cliente": "Canal 13C",
+      "tipo": "Programa de televisión",
+      "anio": "2026",
+      "descripcion": "Capítulo del programa «Siguiendo la Veta» de 13C: el conductor Guillermo Gomien recorre NIDO, el proyecto sustentable de edificación en madera en Santiago."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=v8C_6-FJiks",
+      "titulo": "Evento L'Oréal 2024",
+      "cliente": "L'Oréal",
+      "tipo": "Evento corporativo · CCTV",
+      "anio": "2024",
+      "descripcion": "Circuito cerrado de televisión (CCTV) para el evento de L'Oréal, con señal en vivo para el recinto y registro del programa completo."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=ER8BxEDrIPk",
+      "titulo": "Programa en set virtual · Cummins",
+      "cliente": "Cummins",
+      "tipo": "Set virtual",
+      "anio": "",
+      "descripcion": "Programa corporativo de Cummins producido en set virtual, con escenografía 3D diseñada a medida."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=nMLXw765cII",
+      "titulo": "For Women in Science 2021",
+      "cliente": "",
+      "tipo": "Evento institucional",
+      "anio": "2021",
+      "descripcion": "Producción y realización de la ceremonia For Women in Science (30 de noviembre de 2021), que reconoce a científicas destacadas.",
+      "externo": true
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=EH85gr79Vw0",
+      "titulo": "Puente Chacao · montaje de pilotes de la Pila Norte",
+      "cliente": "Trevi",
+      "tipo": "Registro de obra",
+      "anio": "2021",
+      "descripcion": "Registro audiovisual del montaje de pilotes de la Pila Norte del Puente Chacao para Trevi: hinca de camisas de 2.650 mm de diámetro y 59 m de largo, y excavación por circulación inversa, técnicas usadas por primera vez en Chile."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=jYT_XzyzzF4",
+      "titulo": "FCC 2 · Combates en vivo",
+      "cliente": "Fighting Championship Chile",
+      "tipo": "Streaming deportivo",
+      "anio": "2026",
+      "descripcion": "Transmisión en vivo de más de siete horas de la segunda edición de Fighting Championship Chile: NOGI, boxeo, kickboxing y MMA, con la pelea por el título Copa FCC.",
+      "externo": true
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=5mt3o-BDqw4",
+      "titulo": "Full Try TV · Pasión por el Rugby",
+      "cliente": "Full Try TV",
+      "tipo": "Programa deportivo",
+      "anio": "2024",
+      "descripcion": "Capítulo del programa Full Try TV, dedicado al rugby chileno y a la evolución del deporte en el país."
+    }
+  ]
 }
