@@ -4,25 +4,25 @@
       "youtube": "https://www.youtube.com/watch?v=1UGjNxCjEtE",
       "titulo": "Aniversario BancoEstado",
       "cliente": "BancoEstado",
-      "tipo": "Evento corporativo",
-      "anio": "",
-      "descripcion": "Producción audiovisual y registro completo del evento de aniversario de BancoEstado."
+      "tipo": "Evento corporativo · en vivo",
+      "anio": "2021",
+      "descripcion": "Realización en vivo con 4 cámaras del evento de aniversario de BancoEstado, con registro completo del programa."
     },
     {
       "youtube": "https://www.youtube.com/watch?v=mi1zeQHljag",
       "titulo": "Pulso a la Economía",
       "cliente": "BancoEstado",
-      "tipo": "Evento corporativo",
-      "anio": "",
-      "descripcion": "Producción y realización del encuentro «Pulso a la Economía» de BancoEstado, con presentaciones y paneles de conversación."
+      "tipo": "Evento corporativo · en vivo",
+      "anio": "2021",
+      "descripcion": "Realización en vivo con 4 cámaras del encuentro «Pulso a la Economía» de BancoEstado, con presentaciones y paneles de conversación."
     },
     {
       "youtube": "https://www.youtube.com/watch?v=_Fsgxr09u58",
       "titulo": "Lanzamiento FOGAPE Reactiva",
       "cliente": "BancoEstado",
-      "tipo": "Evento institucional",
+      "tipo": "Evento institucional · en vivo",
       "anio": "2021",
-      "descripcion": "Producción y realización del evento de BancoEstado sobre el programa de garantías FOGAPE Reactiva (agosto de 2021)."
+      "descripcion": "Realización en vivo con 4 cámaras del evento de BancoEstado sobre el programa de garantías FOGAPE Reactiva (agosto de 2021)."
     },
     {
       "youtube": "https://www.youtube.com/watch?v=q6iOC0-R15A",
@@ -45,16 +45,16 @@
       "titulo": "Programa en set virtual · Cummins",
       "cliente": "Cummins",
       "tipo": "Set virtual",
-      "anio": "",
+      "anio": "2021",
       "descripcion": "Programa corporativo de Cummins producido en set virtual, con escenografía 3D diseñada a medida."
     },
     {
       "youtube": "https://www.youtube.com/watch?v=nMLXw765cII",
       "titulo": "For Women in Science 2021",
-      "cliente": "",
+      "cliente": "L'Oréal-UNESCO",
       "tipo": "Evento institucional",
       "anio": "2021",
-      "descripcion": "Producción y realización de la ceremonia For Women in Science (30 de noviembre de 2021), que reconoce a científicas destacadas.",
+      "descripcion": "Producción y realización de la ceremonia For Women in Science de L'Oréal-UNESCO (30 de noviembre de 2021), que reconoce a científicas destacadas.",
       "externo": true
     },
     {
