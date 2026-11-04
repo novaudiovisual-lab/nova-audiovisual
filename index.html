@@ -21,6 +21,11 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NOVA">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -418,7 +423,7 @@ h3{font-weight:800}
 footer{background:#1f1c1d}
 footer .foot-logo{width:118px;opacity:1;filter:drop-shadow(0 3px 0 var(--shadow))}
 footer a{color:var(--muted)}
-@media (max-width:640px){.topbar .wrap{flex-wrap:nowrap}.nav a:not(.btn){display:none}.brand img{height:40px}}
+@media (max-width:640px){.topbar .wrap{flex-wrap:nowrap;gap:10px}.nav a:not(.btn){display:none}.nav a.btn{white-space:nowrap}.brand img{height:40px}.brand span{display:none}.nova-install{margin-left:0!important}}
 </style>
 </head>
 <body>
@@ -630,5 +635,7 @@ document.addEventListener("click", function(e){
   } catch(err){ selectSibling(); done(false); }
 });
 </script>
+<script src="install.js" defer></script>
+<script>if('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));</script>
 </body>
 </html>
