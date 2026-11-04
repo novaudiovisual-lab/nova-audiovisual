@@ -58,12 +58,52 @@
       "externo": true
     },
     {
+      "youtube": "https://www.youtube.com/watch?v=T0J89tGTiUc",
+      "titulo": "Evento «Mutuo Cuidado»",
+      "cliente": "Flesan",
+      "tipo": "Streaming corporativo",
+      "anio": "2023",
+      "descripcion": "Transmisión en vivo del evento «Mutuo Cuidado» de Flesan (18 de diciembre de 2023), dedicado a la seguridad y el cuidado entre trabajadores."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=caKaIr0dSx4",
+      "titulo": "Aquí CConversa · programa en vivo",
+      "cliente": "",
+      "tipo": "Streaming · programa en vivo",
+      "anio": "2022",
+      "descripcion": "Programa de conversación transmitido en vivo desde el ex Congreso Nacional, en Santiago (mayo de 2022)."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=i3aPUCX0Kw4",
+      "titulo": "Festival de Jazz de Renca 2023 · Perico Sambeat",
+      "cliente": "",
+      "tipo": "Concierto · registro en vivo",
+      "anio": "2023",
+      "descripcion": "Registro multicámara del concierto del saxofonista Perico Sambeat en el Festival de Jazz de Renca (25 de noviembre de 2023)."
+    },
+    {
       "youtube": "https://www.youtube.com/watch?v=EH85gr79Vw0",
       "titulo": "Puente Chacao · montaje de pilotes de la Pila Norte",
       "cliente": "Trevi",
       "tipo": "Registro de obra",
       "anio": "2021",
       "descripcion": "Registro audiovisual del montaje de pilotes de la Pila Norte del Puente Chacao para Trevi: hinca de camisas de 2.650 mm de diámetro y 59 m de largo, y excavación por circulación inversa, técnicas usadas por primera vez en Chile."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=T5smHhrS__c",
+      "titulo": "Desmantelamiento planta LIX1 · Los Bronces",
+      "cliente": "Flesan",
+      "tipo": "Registro de obra",
+      "anio": "",
+      "descripcion": "Registro audiovisual del desmantelamiento de la planta LIX1 en la división Los Bronces, ejecutado por Flesan."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=yUPai7Go-mg",
+      "titulo": "Demolición de edificio · proyecto Anglo American",
+      "cliente": "Flesan",
+      "tipo": "Registro de obra",
+      "anio": "",
+      "descripcion": "Registro del proyecto de demolición de un edificio realizado por Flesan para Anglo American."
     },
     {
       "youtube": "https://www.youtube.com/watch?v=jYT_XzyzzF4",
