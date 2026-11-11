@@ -121,6 +121,142 @@
       "tipo": "Programa deportivo",
       "anio": "2024",
       "descripcion": "Capítulo del programa Full Try TV, dedicado al rugby chileno y a la evolución del deporte en el país."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=fdZVP5Hl0mk",
+      "titulo": "Rutas Patrimoniales · Chiloé",
+      "cliente": "",
+      "tipo": "Serie documental · patrimonio",
+      "anio": "",
+      "descripcion": "Capítulo sobre Chiloé de la serie Rutas Patrimoniales."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=DJ1AHBWoSWo",
+      "titulo": "Rutas Patrimoniales · Cartagena, primera parte",
+      "cliente": "",
+      "tipo": "Serie documental · patrimonio",
+      "anio": "",
+      "descripcion": "Primera parte del capítulo sobre Cartagena de la serie Rutas Patrimoniales."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=lcqv2sulpdY",
+      "titulo": "Rutas Patrimoniales · Cartagena, segunda parte",
+      "cliente": "",
+      "tipo": "Serie documental · patrimonio",
+      "anio": "",
+      "descripcion": "Segunda parte del capítulo sobre Cartagena de la serie Rutas Patrimoniales."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=ZN6s2XzO5dI",
+      "titulo": "Rutas Patrimoniales · Arica, El Esclavo",
+      "cliente": "",
+      "tipo": "Serie documental · patrimonio",
+      "anio": "",
+      "descripcion": "Capítulo sobre El Esclavo, en Arica, de la serie Rutas Patrimoniales."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=dxb_4TB1qdc",
+      "titulo": "Rutas Patrimoniales · Río Olivares",
+      "cliente": "",
+      "tipo": "Serie documental · patrimonio",
+      "anio": "",
+      "descripcion": "Capítulo sobre el valle del Río Olivares de la serie Rutas Patrimoniales."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=3Zs1LhXFJSM",
+      "titulo": "Arte en Chile · Circo",
+      "cliente": "",
+      "tipo": "Serie cultural",
+      "anio": "",
+      "descripcion": "Capítulo sobre circo de la serie Arte en Chile."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=SmDSohtZLLY",
+      "titulo": "Arte en Chile · Moda",
+      "cliente": "",
+      "tipo": "Serie cultural",
+      "anio": "2017",
+      "descripcion": "Capítulo sobre moda de la serie Arte en Chile."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=vb06BEkMFLA",
+      "titulo": "Arte en Chile · Alicia",
+      "cliente": "",
+      "tipo": "Serie cultural",
+      "anio": "2017",
+      "descripcion": "Capítulo «Alicia» de la serie Arte en Chile."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=mkJ1x1kd2XU",
+      "titulo": "Enel · Fórmula E 2019",
+      "cliente": "Enel",
+      "tipo": "Pieza para marca",
+      "anio": "2019",
+      "descripcion": "Pieza para Enel sobre la Fórmula E de 2019."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=JAaZ1bnt6tk",
+      "titulo": "Enel · Buses eléctricos",
+      "cliente": "Enel",
+      "tipo": "Pieza para marca",
+      "anio": "",
+      "descripcion": "Pieza para Enel sobre su flota de buses eléctricos."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=DIqTI1yZeMY",
+      "titulo": "Danco",
+      "cliente": "Danco",
+      "tipo": "Pieza para marca",
+      "anio": "",
+      "descripcion": "Pieza audiovisual para Danco."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=3P9bsAAFk2M",
+      "titulo": "Jazz Recoleta · Arturo O'Farrill",
+      "cliente": "",
+      "tipo": "Concierto · registro en vivo",
+      "anio": "2023",
+      "descripcion": "Registro del concierto del pianista Arturo O'Farrill en Jazz Recoleta (10 de diciembre de 2023)."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=F4cya-8gz0s",
+      "titulo": "Festival de Jazz de Renca 2023 · Novas Trío",
+      "cliente": "",
+      "tipo": "Concierto · registro en vivo",
+      "anio": "2023",
+      "descripcion": "Registro del concierto de Novas Trío en el Festival de Jazz de Renca."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=teyxl4TDMLM",
+      "titulo": "Festival de Jazz de Renca 2023 · Andrés Pérez",
+      "cliente": "",
+      "tipo": "Concierto · registro en vivo",
+      "anio": "2023",
+      "descripcion": "Registro del concierto del saxofonista Andrés Pérez en el Festival de Jazz de Renca."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=kU4Ecj15gU8",
+      "titulo": "Congreso Internacional de Derechos Humanos · día uno",
+      "cliente": "",
+      "tipo": "Streaming · congreso",
+      "anio": "2026",
+      "descripcion": "Transmisión en vivo de la primera jornada del Congreso Internacional de Derechos Humanos (3 de septiembre de 2026)."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=Sb3LRPKQuio",
+      "titulo": "Congreso Internacional de Derechos Humanos · día dos",
+      "cliente": "",
+      "tipo": "Streaming · congreso",
+      "anio": "2026",
+      "descripcion": "Transmisión en vivo de la segunda jornada del Congreso Internacional de Derechos Humanos (4 de septiembre de 2026)."
+    },
+    {
+      "youtube": "https://www.youtube.com/watch?v=SwYBiOIftlA",
+      "titulo": "Podcast Unacem",
+      "cliente": "Unacem",
+      "tipo": "Podcast · registro en estudio",
+      "anio": "2026",
+      "descripcion": "Registro del podcast de Unacem."
     }
   ]
 }
